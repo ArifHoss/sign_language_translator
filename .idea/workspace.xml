@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="skapade branch coffe_order">
-      <change afterPath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/orders/OrderForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/ProfileHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Order.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Profile.jsx" afterDir="false" />
+    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="created context setup for project">
+      <change afterPath="$PROJECT_DIR$/src/views/Orders.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Order.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Profile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/AHossa/WebstormProjects/sign_language_translator",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AHossa/WebstormProjects/sign_language_translator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674051385109</updated>
       <workItem from="1674051386787" duration="16000" />
-      <workItem from="1674051437973" duration="1781000" />
+      <workItem from="1674051437973" duration="4364000" />
+      <workItem from="1674120367704" duration="1597000" />
     </task>
     <task id="LOCAL-00001" summary="first commit from dev branch">
       <created>1674054957037</created>
@@ -73,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674055269628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created context setup for project">
+      <created>1674055720764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674055720764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit from dev branch" />
     <MESSAGE value="skapade branch coffe_order" />
-    <option name="LAST_COMMIT_MESSAGE" value="skapade branch coffe_order" />
+    <MESSAGE value="created context setup for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="created context setup for project" />
   </component>
 </project>
