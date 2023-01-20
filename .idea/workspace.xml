@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="install router dom to the project and make some empty component and route them throw parent">
+    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,8 @@
       <updated>1674051385109</updated>
       <workItem from="1674051386787" duration="16000" />
       <workItem from="1674051437973" duration="4364000" />
-      <workItem from="1674120367704" duration="6877000" />
+      <workItem from="1674120367704" duration="8270000" />
+      <workItem from="1674200308333" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="first commit from dev branch">
       <created>1674054957037</created>
