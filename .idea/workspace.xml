@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="">
+    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="install router dom to the project and make some empty component and route them throw parent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/AppContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/AppContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/UserContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/UserContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/storage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -41,6 +54,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\AHossa\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\223.8214.52\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -55,7 +69,9 @@
       <workItem from="1674051386787" duration="16000" />
       <workItem from="1674051437973" duration="4364000" />
       <workItem from="1674120367704" duration="8270000" />
-      <workItem from="1674200308333" duration="312000" />
+      <workItem from="1674200308333" duration="2539000" />
+      <workItem from="1674204221189" duration="17939000" />
+      <workItem from="1674477061492" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="first commit from dev branch">
       <created>1674054957037</created>
