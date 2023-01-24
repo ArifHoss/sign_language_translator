@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="install router dom to the project and make some empty component and route them throw parent">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/orders/OrderCoffeButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orders/OrderCoffeButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/orders/OrdersForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orders/OrdersForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileActions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileActions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileOrderHistory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileOrderHistory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileOrderHistoryItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileOrderHistoryItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const/storageKeys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const/storageKeys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/UserContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/UserContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/withAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/withAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Orders.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Orders.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Profile.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="09aa71f5-3bea-4643-82df-9e06f9d5bcd2" name="Changes" comment="install router dom to the project and make some empty component and route them throw parent" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +63,7 @@
       <updated>1674051385109</updated>
       <workItem from="1674051386787" duration="16000" />
       <workItem from="1674051437973" duration="1106000" />
-      <workItem from="1674542061622" duration="14681000" />
+      <workItem from="1674542061622" duration="14857000" />
     </task>
     <servers />
   </component>
