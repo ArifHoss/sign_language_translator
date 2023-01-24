@@ -28,7 +28,3 @@ function App() {
 }
 
 export default App;
-/*
-REACT_APP_API_KEY=aölksdjfkajdfajdklfjalkdfj
-REACT_APP_API_URL=https://noroff-assignment-api-production-741f.up.railway.app/coffee
-* */

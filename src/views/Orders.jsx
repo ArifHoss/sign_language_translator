@@ -1,8 +1,9 @@
 import withAuth from "../hoc/withAuth";
-import OrderCoffeButton from "../components/orders/OrderCoffeButton";
 import OrdersForm from "../components/orders/OrdersForm";
 import OrderCoffeeButton from "../components/orders/OrderCoffeButton";
 import {useState} from "react";
+import {useUser} from "../context/UserContext";
+import {orderAdd} from "../api/order";
 
 const COFFEES = [
     {
@@ -30,9 +31,24 @@ const COFFEES = [
 const Orders = () => {
 
     const [coffee, setCoffee] = useState(null)
+    const {user} = useUser()
 
     const handleCoffeeClicked = (coffeeId) => {
        setCoffee(COFFEES.find(coffee => coffee.id ===coffeeId))
+    }
+
+    const handleOrderClicked = async (notes) => {
+
+        if (!coffee) {
+            alert("Please select a coffee first.")
+            return
+        }
+
+        const order =(coffee.name+' '+notes).trim()
+
+        const [error, result] = await  orderAdd(user, order)
+        console.log("Error", error)
+        console.log("Result", result)
     }
 
     const availableCoffees = COFFEES.map(coffee => {
@@ -47,15 +63,11 @@ const Orders = () => {
         <>
         <h1>Orders</h1>
             <section id="coffee-options">
-                {/*<OrderCoffeButton name="Americano" image="img/americano.png" key="americano"/>*/}
-                {/*<OrderCoffeButton name="Cappuccino" image="img/cappuccino.png" key="cappuccino"/>*/}
-                {/*<OrderCoffeButton name="Espresso" image="img/espresso.png" key="espresso"/>*/}
-                {/*<OrderCoffeButton name="Latte" image="img/latte.png" key="latte"/>*/}
 
                 {availableCoffees}
             </section>
             <section>
-                <OrdersForm/>
+                <OrdersForm onOrder={handleOrderClicked}/>
             </section>
             <h4>Summary:</h4>
             {coffee && <p>Selected coffee: {coffee.name}</p>}
