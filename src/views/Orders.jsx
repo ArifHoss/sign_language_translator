@@ -4,6 +4,8 @@ import OrderCoffeeButton from "../components/orders/OrderCoffeButton";
 import {useState} from "react";
 import {useUser} from "../context/UserContext";
 import {orderAdd} from "../api/order";
+import {storageSave} from "../utils/storage";
+import {STORAGE_KEY_USER} from "../const/storageKeys";
 
 const COFFEES = [
     {
@@ -31,7 +33,7 @@ const COFFEES = [
 const Orders = () => {
 
     const [coffee, setCoffee] = useState(null)
-    const {user} = useUser()
+    const {user, setUser} = useUser()
 
     const handleCoffeeClicked = (coffeeId) => {
        setCoffee(COFFEES.find(coffee => coffee.id ===coffeeId))
@@ -46,9 +48,20 @@ const Orders = () => {
 
         const order =(coffee.name+' '+notes).trim()
 
-        const [error, result] = await  orderAdd(user, order)
-        console.log("Error", error)
-        console.log("Result", result)
+        const [error, updatedUser] = await  orderAdd(user, order)
+        if (error !== null) {
+            // Bad
+            return
+        }
+
+        // Keep UI state and Server state in sync
+        storageSave(STORAGE_KEY_USER, updatedUser)
+        // Update context state.
+        setUser(updatedUser)
+
+        console.log("Error", error);
+        console.log("Result", updatedUser)
+        //Be happy!
     }
 
     const availableCoffees = COFFEES.map(coffee => {
